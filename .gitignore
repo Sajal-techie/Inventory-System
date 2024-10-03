@@ -1,3 +1,4 @@
 .env
 venv/
-auth/
+debug.log
+*.pyc
