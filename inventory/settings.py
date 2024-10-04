@@ -201,5 +201,10 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
+        'item_app': {
+            'handlers': ['console', 'file'], 
+            'level': 'DEBUG',
+            'propagate': True,
+        },
     },
 }
